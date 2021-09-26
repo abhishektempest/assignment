@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  display: inline-block;
+}
+.card {
+  margin: 2px;
+  height: 100px;
+  width: 17%;
+  background-color: rgb(46, 135, 170);
+  display: inline-block;
+}
+
+/*media queries for tablet*/
+
+@media (max-width: 1024px) {
+  .card {
+    width: 40%;
+    background-color: rgb(212, 176, 12);
+  }
+}
+
+/*media queries*/
+
+@media (max-width: 420px) {
+  .card {
+    background-color: rgb(17, 29, 138);
+  }
+}
+
+/*media queries for mobile*/
+@media (max-width: 420px) {
+  .card {
+    width: 100%;
+    background-color: rgb(212, 36, 59);
+  }
+}
